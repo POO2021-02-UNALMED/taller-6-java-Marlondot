@@ -1,7 +1,7 @@
 package vehiculos;
 
 public class Vehiculo {
-	private int placa;
+	private String placa;
 	private int puertas;
 	private int velocidadMaxima;
 	private String nombre;
@@ -12,7 +12,7 @@ public class Vehiculo {
 	static int cantidadVehiculos;
 	
 	
-	public Vehiculo(int placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion,Fabricante fabricante) {
+	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion,Fabricante fabricante) {
 		super();
 		this.placa = placa;
 		this.puertas = puertas;
@@ -31,10 +31,10 @@ public class Vehiculo {
 	//
 	//getting and setting
 	//
-	public int getPlaca() {
+	public String getPlaca() {
 		return placa;
 	}
-	public void setPlaca(int placa) {
+	public void setPlaca(String placa) {
 		this.placa = placa;
 	}
 
