@@ -87,6 +87,10 @@ public class Vehiculo {
 		this.fabricante = fabricante;
 	}
 	
+	public static void setCantidadVehiculos(int number) {
+		Vehiculo.cantidadVehiculos=number;
+	}
+	
 	//
 	//methods
 	//
